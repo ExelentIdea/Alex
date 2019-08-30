@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mercury Development</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+</head>
+
+<body>
+	<img class = "logo" src = "Logo.png" />
+	<form action="https://us-central1-mercdev-academy.cloudfunctions.net/login" method="POST" name="form" id="form">
+		<fieldset class="account">
+			<p>Log In</p>
+			<input  id="login" class="account__input" type="text" name="email" id="log" placeholder="E-Mail" /> <br/>
+			<input class="account__input" type="password" id="pass" name="password" placeholder="Password"/> <br />
+			<div id="error"><p> E-Mail or password is incorrect </p> </div>
+			<input class="btn" type="submit" id="button" name="button" value="Login" />
+		</fieldset>
+
+	</form>
+
+</body>
+
+</html>
